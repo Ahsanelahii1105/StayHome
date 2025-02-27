@@ -35,5 +35,9 @@ namespace test.Controllers
         {
             return View();
         }
+        public IActionResult ProfileCreator()
+        {
+            return View();
+        }
     }
 }

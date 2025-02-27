@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "Admin Agent";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Agent</h1>
+
+<div class="conatiner-fluid">
+    <div class="row">
+        <div class="col-12">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Profile Pic</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Listing</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td><img width="50px" height="50px" src="/images/team-1.jpg" class="card-img-top" alt="..."></td>
+                        <td>Ahsan</td>
+                        <td>ahsan@gmail.com</td>
+                        <td>I'm an Agent!</td>
+                        <td><p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p></td>
+                        <td>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Details</a>
+                                <a href="#" class="card-link danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+          @*   <div class="card" style="width: 18rem;">
+                <img src="/images/team-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">James Stallon</h5>
+                    <p class="card-text">I'm an Agent.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p></li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Details</a>
+                    <a href="#" class="card-link danger">Delete</a>
+                </div>
+            </div> *@
+
+        </div>
+    </div>
+</div>

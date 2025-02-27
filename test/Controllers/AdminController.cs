@@ -12,7 +12,11 @@ namespace test.Controllers
         {
             return View();
         }
-        public IActionResult Saler()
+        public IActionResult Saller()
+        {
+            return View();
+        }
+        public IActionResult RegisteredUsers()
         {
             return View();
         }
