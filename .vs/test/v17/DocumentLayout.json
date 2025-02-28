@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "D:\\test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\web\\sallerprofilecreator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\sallerprofilecreator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\sallerprofilecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\sallerprofilecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\profilecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\profilecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\web\\profilecreator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\profilecreator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,96 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\test\\test\\Models\\Register.cs",
-              "RelativeDocumentMoniker": "test\\Models\\Register.cs",
-              "ToolTip": "D:\\test\\test\\Models\\Register.cs",
-              "RelativeToolTip": "test\\Models\\Register.cs",
-              "ViewState": "AgIAAAgAAAAgZGZmZmYswBoAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SallerProfileCreator.cs",
+              "DocumentMoniker": "D:\\test\\test\\Models\\SallerProfileCreator.cs",
+              "RelativeDocumentMoniker": "test\\Models\\SallerProfileCreator.cs",
+              "ToolTip": "D:\\test\\test\\Models\\SallerProfileCreator.cs",
+              "RelativeToolTip": "test\\Models\\SallerProfileCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:56:17.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\User\\Register.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "test\\Views\\User\\Register.cshtml",
-              "ViewState": "AgIAAEMAAAAAaGZmZmYkwAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T22:04:45.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "test\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T22:01:12.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\test\\test\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "test\\Models\\Login.cs",
-              "ToolTip": "D:\\test\\test\\Models\\Login.cs",
-              "RelativeToolTip": "test\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:55:45.144Z",
+              "WhenOpened": "2025-02-28T23:11:01.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\test\\test\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "test\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\test\\test\\Controllers\\UserController.cs",
-              "RelativeToolTip": "test\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABcAAAAwMzMzMzMzwAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:53:13.343Z",
+              "Title": "SallerProfileCreator.cshtml",
+              "DocumentMoniker": "D:\\test\\test\\Views\\Web\\SallerProfileCreator.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\SallerProfileCreator.cshtml",
+              "ToolTip": "D:\\test\\test\\Views\\Web\\SallerProfileCreator.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\SallerProfileCreator.cshtml",
+              "ViewState": "AgIAAA8AAACAZmZmZmYkwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:09:46.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Context.cs",
-              "DocumentMoniker": "D:\\test\\test\\Data\\Context.cs",
-              "RelativeDocumentMoniker": "test\\Data\\Context.cs",
-              "ToolTip": "D:\\test\\test\\Data\\Context.cs",
-              "RelativeToolTip": "test\\Data\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:48:14.003Z"
+              "DocumentIndex": 3,
+              "Title": "ProfileCreator.cshtml",
+              "DocumentMoniker": "D:\\test\\test\\Views\\Web\\ProfileCreator.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\ProfileCreator.cshtml",
+              "ToolTip": "D:\\test\\test\\Views\\Web\\ProfileCreator.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\ProfileCreator.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswGsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T22:50:09.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\test\\test\\Program.cs",
-              "RelativeDocumentMoniker": "test\\Program.cs",
-              "ToolTip": "D:\\test\\test\\Program.cs",
-              "RelativeToolTip": "test\\Program.cs",
-              "ViewState": "AgIAAAAAAABUZmZmZmYkwAIAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProfileCreator.cs",
+              "DocumentMoniker": "D:\\test\\test\\Models\\ProfileCreator.cs",
+              "RelativeDocumentMoniker": "test\\Models\\ProfileCreator.cs",
+              "ToolTip": "D:\\test\\test\\Models\\ProfileCreator.cs",
+              "RelativeToolTip": "test\\Models\\ProfileCreator.cs",
+              "ViewState": "AgIAAAEAAABgZmZmZmYwwAYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:44:27.322Z",
+              "WhenOpened": "2025-02-28T22:44:29.478Z",
               "EditorCaption": ""
             }
           ]
