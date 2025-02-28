@@ -1,7 +1,77 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model Login 
 
-<h1>welcome to Login page</h1>
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .auth-container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        text-align: center;
+    }
+
+        .auth-container img {
+            width: 350px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+    .form-label {
+        align-items: start;
+        margin-right: 250px;
+    }
+
+    .btn-custom {
+        background-color: #375a9e;
+        color: white;
+    }
+
+        .btn-custom:hover {
+            background-color: grey;
+        }
+
+    .footer {
+        background-color: #375a9e;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+    }
+</style>
+<div class="container">
+  
+    
+    <div class="auth-container">
+       <img src="~/images/bg_1.jpg" alt="Sign In">
+
+        
+        <h3 class="text-center">Sign In</h3>
+
+        <form asp-action="Login" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input asp-for="Password" type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+            <button type="submit" class="btn btn-primary w-100" asp-action="Login" asp-controller="User">Sign In</button>
+        </form>
+        <p @Url.Action("Register", "User") class="text - center mt - 3">Don't have an account? <a asp-controller="User" asp-action="Register">Sign Up</a></p>
+
+
+
+    
+    </div>
+</div>
+
+
+

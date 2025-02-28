@@ -1,7 +1,26 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using test.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<Context>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("default")));
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
+builder.Services.ConfigureExternalCookie(o =>
+{
+    o.Cookie.Name = "User";
+    o.AccessDeniedPath = "Usser/Login";
+    o.LoginPath = "User/Login";
+    o.LogoutPath = "User/Logout";
+    o.ExpireTimeSpan = TimeSpan.FromHours(2);
+    o.SlidingExpiration = true;
+}
+);
 
 var app = builder.Build();
 

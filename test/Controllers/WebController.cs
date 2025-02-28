@@ -39,5 +39,9 @@ namespace test.Controllers
         {
             return View();
         }
+        public IActionResult SallerProfileCreator()
+        {
+            return View();
+        }
     }
 }

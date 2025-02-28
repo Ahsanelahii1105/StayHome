@@ -128,6 +128,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFByb2ZpbGVDcmVhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/test/test/Views/Web/SallerProfileCreator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXFNhbGxlclByb2ZpbGVDcmVhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/test/test/Views/Web/service.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2ViXHNlcnZpY2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
