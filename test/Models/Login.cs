@@ -4,7 +4,7 @@ namespace test.Models
 {
     public class Login
     {
-
+        [Key]
         [Required(ErrorMessage = "This is Required")]
         [EmailAddress]
         public string Email { get; set; }

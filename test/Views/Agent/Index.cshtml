@@ -1,72 +1,120 @@
-﻿
+﻿@model IEnumerable<test.Models.Menu.AgentPropertyCreator>
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/AgentLayout.cshtml";
 }
 
-<h1>Agent Index</h1>
+<h1>Index</h1>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-        </div>
-        <div class="col-md-6 d-flex flex-row-reverse">
-            <p><a href="@Url.Action("AddProperty","Agent")" class="btn btn-primary">Add Item</a></p>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12">
-
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Profile Pic</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Listing</th>
-                        <th scope="col">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td><img width="50px" height="50px" src="/images/team-1.jpg" class="card-img-top" alt="..."></td>
-                        <td>Ahsan</td>
-                        <td>ahsan@gmail.com</td>
-                        <td>I'm an Agent!</td>
-                        <td><p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p></td>
-                        <td>
-                            <div class="card-body">
-                                <a href="#" class="card-link">Details</a>
-                                <a href="#" class="card-link danger">Delete</a>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-           @*  <div class="card" style="width: 18rem;">
-                <img src="/images/team-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div> *@
-            </div>
-
-        </div>
-    </div>
-</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bedrooms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LotArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FloorArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Washrooms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Garage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Included)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NotIncluded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MapUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TourVideoUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bedrooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LotArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FloorArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Washrooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Garage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Included)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotIncluded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MapUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TourVideoUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

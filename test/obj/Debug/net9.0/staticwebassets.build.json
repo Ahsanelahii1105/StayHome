@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3eNNeSZaPJku2g1gWggv2/n6FKeIjoBxAoje2B/u+G8=",
+  "Hash": "lgAaH/f2rZh2/B7LZZM2Xi/Vsu20t7b37lu15yTSFd0=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -4866,6 +4866,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
+    },
+    {
+      "Identity": "D:\\test\\test\\wwwroot\\Template\\Email.cshtml",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\test\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "Template/Email#[.{fingerprint}]?.cshtml",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p39m4oi4lw",
+      "Integrity": "ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "wwwroot\\Template\\Email.cshtml"
     }
   ],
   "Endpoints": [
@@ -29972,6 +29993,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+cLsIeuOLiBZ+pbezHNkGEv1NS61NTZFThQpwhyu5wo="
+        }
+      ]
+    },
+    {
+      "Route": "Template/Email.cshtml",
+      "AssetFile": "D:\\test\\test\\wwwroot\\Template\\Email.cshtml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 01:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI="
+        }
+      ]
+    },
+    {
+      "Route": "Template/Email.p39m4oi4lw.cshtml",
+      "AssetFile": "D:\\test\\test\\wwwroot\\Template\\Email.cshtml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 01:21:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p39m4oi4lw"
+        },
+        {
+          "Name": "label",
+          "Value": "Template/Email.cshtml"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI="
         }
       ]
     }

@@ -1,16 +1,36 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using test.Data;
+using test.Models.Menu;
 
 namespace test.Controllers
 {
     public class SallerController : Controller
     {
-        public IActionResult Index()
+        private readonly Context _context;
+        public SallerController(Context context)
         {
-            return View();
+            this._context = context;
         }
-        public IActionResult AddSallerProperty()
+
+        public async Task<IActionResult> Index(SallerPropertyCreator sallerPropertyCreator)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                await _context.SallerPropertyCreator.AddAsync(sallerPropertyCreator);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("SallerPropertyCreator", "Agent");
+            }
+
+            return View(sallerPropertyCreator);
+        }
+
+
+        public async Task<IActionResult> SallerPropertyCreator()
+        {
+            var data = await _context.SallerPropertyCreator.ToListAsync();
+
+            return View(data);
         }
     }
 }

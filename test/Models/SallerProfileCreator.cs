@@ -39,6 +39,6 @@ namespace test.Models
         [Required]
         public string Gender { get; set; } // Can be "Male", "Female", "Other"
 
-        public bool Dealer { get; set; } // To indicate if the person is a dealer
+        public bool Saller { get; set; } // To indicate if the person is a dealer
     }
 }

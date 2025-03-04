@@ -229,3 +229,4 @@ wwwroot\scss\bootstrap\utilities\_spacing.scss
 wwwroot\scss\bootstrap\utilities\_text.scss
 wwwroot\scss\bootstrap\utilities\_visibility.scss
 wwwroot\scss\style.scss
+wwwroot\Template\Email.cshtml

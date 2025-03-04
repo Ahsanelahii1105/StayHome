@@ -1,108 +1,99 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model test.Models.ProfileCreator
+
 @{
+    ViewData["Title"] = "ProfileCreator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@model ProfileCreator
 
 <div class="container justify-content-center mt-5">
 
 
-        <div class="card">
+    <div class="card">
 
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Web" asp-action="ProfileCreator">Agent</a>
-                    </li>
-                    <li class="nav-item">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Web" asp-action="ProfileCreator">Agent</a>
+                </li>
+                <li class="nav-item">
 
-                        <a asp-controller="Web" asp-action="SallerProfileCreator" class="nav-link">Saller</a>
-                    </li>
+                    <a asp-controller="Web" asp-action="SallerProfileCreator" class="nav-link">Saller</a>
+                </li>
 
-                </ul>
-
-
-            </div>
-
-
-            <div class="card-body">
-                <div>
-                        <div class="container">
-                            <div class="form-container">
-                                <form asp-action="ProfileCreator" method="post" enctype="multipart/form-data">
-                                    <div class="form-group">
-                                        <label for="username">User Name</label>
-                                        <input asp-for="Name" type="text" class="form-control" id="username" required>
-                                        <span asp-validation-for="Name" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input asp-for="Email" type="email" class="form-control" id="email"  required>
-                                        <span asp-validation-for="Email" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="phone">Phone Number</label>
-                                        <input asp-for="PhoneNumber" type="tel" class="form-control" id="phone" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="address">Address</label>
-                                        <input asp-for="Address" type="text" class="form-control" id="address" required>
-                                        <span asp-validation-for="Address" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="country">Country</label>
-                                        <input asp-for="Country" ype="text" class="form-control" id="country" required>
-                                        <span asp-validation-for="Country" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="city">City</label>
-                                        <input asp-for="City" type="text" class="form-control" id="city" required>
-                                        <span asp-validation-for="City" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cnic">CNIC Number</label>
-                                        <input asp-for="CNICNumber" type="text" class="form-control" id="cnic" required>
-                                        <span asp-validation-for="CNICNumber" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cnicFront">CNIC Front Picture</label>
-                                        <input asp-for="CNICFrontPic" type="file" class="form-control-file" id="cnicFront" accept="image/*" required>
-                                        <span asp-validation-for="CNICFrontPic" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="cnicBack">CNIC Back Picture</label>
-                                        <input asp-for="CNICBackPic" type="file" class="form-control-file" id="cnicBack" accept="image/*" required>
-                                        <span asp-validation-for="CNICBackPic" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Gender</label>
-                                        <div>
-                                            <div class="form-check form-check-inline">
-                                                <input asp-for="Gender" class="form-check-input" type="radio" name="gender" id="male" value="male" required>
-                                                <label class="form-check-label" for="male">Male</label>
-                                            </div>
-                                            <div class="form-check form-check-inline">
-                                                <input asp-for="Gender" class="form-check-input" type="radio" name="gender" id="female" value="female" required>
-                                                <label class="form-check-label" for="female">Female</label>
-                                            </div>
-                                        </div>
-                                        <span asp-validation-for="Gender" class="text-danger"></span>
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Dealer Type</label>
-                                        <input asp-for="Dealer" type="text" class="form-control" value="Agent" readonly>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                </div>
-            </div>
+            </ul>
 
 
         </div>
 
-
-   
+        <div class="card-body">
+            <div>
+                <div class="container">
+                    <div class="form-container">
+                        <form asp-action="ProfileCreator">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Name" class="control-label"></label>
+                                <input asp-for="Name" class="form-control" />
+                                <span asp-validation-for="Name" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Email" class="control-label"></label>
+                                <input asp-for="Email" class="form-control" />
+                                <span asp-validation-for="Email" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="PhoneNumber" class="control-label"></label>
+                                <input asp-for="PhoneNumber" class="form-control" />
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Address" class="control-label"></label>
+                                <input asp-for="Address" class="form-control" />
+                                <span asp-validation-for="Address" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Country" class="control-label"></label>
+                                <input asp-for="Country" class="form-control" />
+                                <span asp-validation-for="Country" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="City" class="control-label"></label>
+                                <input asp-for="City" class="form-control" />
+                                <span asp-validation-for="City" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CNICNumber" class="control-label"></label>
+                                <input asp-for="CNICNumber" class="form-control" />
+                                <span asp-validation-for="CNICNumber" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CNICFrontPic" class="control-label"></label>
+                                <input asp-for="CNICFrontPic" class="form-control" />
+                                <span asp-validation-for="CNICFrontPic" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="CNICBackPic" class="control-label"></label>
+                                <input asp-for="CNICBackPic" class="form-control" />
+                                <span asp-validation-for="CNICBackPic" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Gender" class="control-label"></label>
+                                <input asp-for="Gender" class="form-control" />
+                                <span asp-validation-for="Gender" class="text-danger"></span>
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" asp-for="Agent" /> @Html.DisplayNameFor(model => model.Agent)
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+

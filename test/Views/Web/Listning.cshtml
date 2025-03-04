@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<test.Models.Menu.listningPropertyCreator>
 @{
 	ViewData["Title"] = "Listning";
 }
@@ -210,199 +210,39 @@
 						</div>
 					</form>
 				</div>
-			</div><!-- end -->
+			</div>
+			<!-- end -->
+
+
 			<div class="col-lg-9">
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
 						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
+							@foreach (var item in Model)
+							{
+								<div class="img">
+									<img src="/images/work-1.jpg" class="img-fluid" alt="Colorlib Template">
 								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
+								<div class="desc">
+									<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
+										<span>Sale</span>
 									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
+									<div class="d-flex pt-5">
+										<div>
+											<h3><a asp-controller="listning" asp-action="listningdetails">@Html.DisplayFor(modelItem => item.Name)</a></h3>
+										</div>
+										<div class="pl-md-4">
+											<h4 class="price">@Html.DisplayFor(modelItem => item.Price)</h4>
+										</div>
 									</div>
+									<p class="h-info"><span class="location">@Html.DisplayFor(modelItem => item.Country)</span> <span class="details">&mdash; @Html.DisplayFor(modelItem => item.Bedrooms)</span></p>
 								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-2.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-secondary d-flex text-center align-items-center justify-content-center">
-									<span>Rent</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120<span>/mo</span></h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-3.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$230,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-4.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-5.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-secondary d-flex text-center align-items-center justify-content-center">
-									<span>Rent</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$50<span>/mo</span></h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-6.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-7.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-8.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 col-lg-4">
-						<div class="properties ftco-animate">
-							<div class="img">
-								<img src="/images/work-9.jpg" class="img-fluid" alt="Colorlib Template">
-							</div>
-							<div class="desc">
-								<div class="text bg-primary d-flex text-center align-items-center justify-content-center">
-									<span>Sale</span>
-								</div>
-								<div class="d-flex pt-5">
-									<div>
-										<h3><a asp-controller="listning" asp-action="listningdetails">Fatima Subdivision</a></h3>
-									</div>
-									<div class="pl-md-4">
-										<h4 class="price">$120,000</h4>
-									</div>
-								</div>
-								<p class="h-info"><span class="location">New York</span> <span class="details">&mdash; 3bds, 2bath</span></p>
-							</div>
+							}
+
 						</div>
 					</div>
 				</div>
+
 				<div class="row mt-5">
 					<div class="col text-center">
 						<div class="block-27">

@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\repository\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\repository\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\web\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,63 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\test\\test\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "test\\Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\test\\test\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "test\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\test\\test\\Program.cs",
+              "RelativeDocumentMoniker": "test\\Program.cs",
+              "ToolTip": "D:\\test\\test\\Program.cs*",
+              "RelativeToolTip": "test\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:37:55.245Z",
+              "WhenOpened": "2025-03-03T21:55:30.941Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cs",
-              "DocumentMoniker": "D:\\test\\test\\Models\\Register.cs",
-              "RelativeDocumentMoniker": "test\\Models\\Register.cs",
-              "ToolTip": "D:\\test\\test\\Models\\Register.cs",
-              "RelativeToolTip": "test\\Models\\Register.cs",
-              "ViewState": "AgIAAAgAAAAgZGZmZmYswBoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:56:17.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\User\\Register.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\User\\Register.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\User\\Register.cshtml",
-              "RelativeToolTip": "test\\Views\\User\\Register.cshtml",
-              "ViewState": "AgIAAEMAAAAAaGZmZmYkwAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T22:04:45.247Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\User\\Login.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\User\\Login.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\User\\Login.cshtml",
-              "RelativeToolTip": "test\\Views\\User\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-28T22:01:12.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "D:\\test\\test\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "test\\Models\\Login.cs",
-              "ToolTip": "D:\\test\\test\\Models\\Login.cs",
-              "RelativeToolTip": "test\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:55:45.144Z"
             },
             {
               "$type": "Document",
@@ -113,34 +53,49 @@
               "RelativeDocumentMoniker": "test\\Controllers\\UserController.cs",
               "ToolTip": "D:\\test\\test\\Controllers\\UserController.cs",
               "RelativeToolTip": "test\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABgAAACAmZmZmZkBwAwAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:53:13.343Z",
+              "WhenOpened": "2025-03-03T21:54:00.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Context.cs",
-              "DocumentMoniker": "D:\\test\\test\\Data\\Context.cs",
-              "RelativeDocumentMoniker": "test\\Data\\Context.cs",
-              "ToolTip": "D:\\test\\test\\Data\\Context.cs",
-              "RelativeToolTip": "test\\Data\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\test\\test\\Repository\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\test\\test\\Repository\\Services\\EmailSender.cs",
+              "RelativeToolTip": "test\\Repository\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:48:14.003Z"
+              "WhenOpened": "2025-03-03T21:53:02.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\test\\test\\Program.cs",
-              "RelativeDocumentMoniker": "test\\Program.cs",
-              "ToolTip": "D:\\test\\test\\Program.cs",
-              "RelativeToolTip": "test\\Program.cs",
-              "ViewState": "AgIAAAAAAABUZmZmZmYkwAIAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "D:\\test\\test\\Repository\\Interface\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Interface\\IEmailSender.cs",
+              "ToolTip": "D:\\test\\test\\Repository\\Interface\\IEmailSender.cs",
+              "RelativeToolTip": "test\\Repository\\Interface\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:44:27.322Z"
+              "WhenOpened": "2025-03-03T21:52:50.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agent.cshtml",
+              "DocumentMoniker": "D:\\test\\test\\Views\\Web\\Agent.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\Agent.cshtml",
+              "ToolTip": "D:\\test\\test\\Views\\Web\\Agent.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\Agent.cshtml",
+              "ViewState": "AgIAAAgAAAAAODMzMzMbwBQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T21:39:41.214Z",
+              "EditorCaption": ""
             }
           ]
         }

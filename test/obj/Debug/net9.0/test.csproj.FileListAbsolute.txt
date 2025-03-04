@@ -639,3 +639,8 @@ D:\test\test\obj\Debug\net9.0\test.pdb
 D:\test\test\obj\Debug\net9.0\test.genruntimeconfig.cache
 D:\test\test\obj\Debug\net9.0\ref\test.dll
 D:\test\test\obj\Debug\net9.0\test.sourcelink.json
+D:\test\test\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\test\test\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\test\test\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\test\test\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\test\test\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll

@@ -1,60 +1,96 @@
-﻿
+﻿@model IEnumerable<test.Models.SallerProfileCreator>
+
 @{
-    ViewData["Title"] = "Admin Saller";
+    ViewData["Title"] = "Saller";
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
 
 <h1>Saller</h1>
 
-<div class="conatiner">
-    <div class="row">
-        <div class="col-12">
-
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Profile Pic</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Email</th>
-                        <th scope="col">Title</th>
-                        <th scope="col">Listing</th>
-                        <th scope="col">Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td><img width="50px" height="50px" src="/images/team-1.jpg" class="card-img-top" alt="..."></td>
-                        <td>Ahsan</td>
-                        <td>ahsan@gmail.com</td>
-                        <td>I'm an Agent!</td>
-                        <td><p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p></td>
-                        <td>
-                            <div class="card-body">
-                                <a href="#" class="card-link">Details</a>
-                                <a href="#" class="card-link danger">Delete</a>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-@*             <div class="card" style="width: 18rem;">
-                <img src="/images/team-1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">James Stallon</h5>
-                    <p class="card-text">I'm an Agent.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p></li>
-                </ul>
-                <div class="card-body">
-                    <a href="#" class="card-link">Details</a>
-                    <a href="#" class="card-link danger">Delete</a>
-                </div>
-            </div> *@
-
-        </div>
-    </div>
-</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CNICNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CNICFrontPic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CNICBackPic)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Saller)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CNICNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CNICFrontPic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CNICBackPic)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Saller)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Identity;
+
 using Microsoft.EntityFrameworkCore;
 using test.Data;
+using test.Repository.Interface;
+using test.Repository.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,14 +12,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Context>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("default")));
-
+builder.Services.AddTransient<IEmailSender,EmailSender>();
 builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<Context>().AddDefaultTokenProviders();
 builder.Services.ConfigureExternalCookie(o =>
 {
-    o.Cookie.Name = "User";
-    o.AccessDeniedPath = "Usser/Login";
-    o.LoginPath = "User/Login";
-    o.LogoutPath = "User/Logout";
+    o.Cookie.Name = "/User";
+    o.AccessDeniedPath = "/Usser/Login";
+    o.LoginPath = "/User/Login";
+    o.LogoutPath = "/User/Logout";
     o.ExpireTimeSpan = TimeSpan.FromHours(2);
     o.SlidingExpiration = true;
 }

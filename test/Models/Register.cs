@@ -5,8 +5,8 @@ namespace test.Models
 {
     public class Register
     {
-        [Required(ErrorMessage = "This is Required")]
-        [EmailAddress]
+        [Key]
+        [Required(ErrorMessage = "This is Required")]   
         public string Name { get; set; }
 
         [Required(ErrorMessage = "This is Required")]
@@ -15,7 +15,7 @@ namespace test.Models
 
 
         [Required(ErrorMessage = "This is Required")]
-
+        //[RegularExpression("/(?=.*?[0 - 9])(?=.*?[A-Za-z]).{8,32}$/)"]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "This is Required")]
@@ -23,9 +23,6 @@ namespace test.Models
         [DisplayName("Confirm Password")]
 
         public string ConfirmPassword { get; set; }
-
-        [DisplayName("Remember Me")]
-        public string RememberMe { get; set; }
     }
 }
 

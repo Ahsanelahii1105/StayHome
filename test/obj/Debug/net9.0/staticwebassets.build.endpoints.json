@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "Template/Email.cshtml",
+      "AssetFile": "Template/Email.cshtml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 01:21:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI="
+        }
+      ]
+    },
+    {
+      "Route": "Template/Email.p39m4oi4lw.cshtml",
+      "AssetFile": "Template/Email.cshtml",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1736"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Mar 2025 01:21:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p39m4oi4lw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ldvSXg1JCuYsEtHofj779h0bzKKW3D/GkaVXsjC8dFI="
+        },
+        {
+          "Name": "label",
+          "Value": "Template/Email.cshtml"
+        }
+      ]
+    },
+    {
       "Route": "css/ajax-loader.gif",
       "AssetFile": "css/ajax-loader.gif",
       "Selectors": [],
