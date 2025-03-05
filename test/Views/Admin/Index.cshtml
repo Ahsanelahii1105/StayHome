@@ -5,7 +5,18 @@
     Layout = "~/Views/Shared/AdminLayout.cshtml";
 }
 
-<h1>Index</h1>
+@{
+    if (@TempData["AdminData"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fage show" role="alert">
+            <strong>@TempData["Admindata"]</strong>
+
+            <button class="tn-close" type="button" data-bs-dismiss="alert" aria-label="close"></button>
+        </div>
+    }
+}
+
+
 
 <div class="container">
     <div class="row m-auto">

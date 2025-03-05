@@ -31,9 +31,12 @@ namespace test.Controllers
         {
             return View();
         }
-        public IActionResult Listning()
+        public async Task<IActionResult> Listning()
         {
-            return View();
+            var data = await _context.listningPropertyCreator.ToListAsync();
+
+            return View(data);
+
         }
         public IActionResult service()
         {
@@ -63,7 +66,7 @@ namespace test.Controllers
             {
                await _context.ProfileCreator.AddAsync(profileCreator);
                 await _context.SaveChangesAsync();
-            return RedirectToAction("Index", "Web");
+                return RedirectToAction("Index", "Web");
             }
 
             return View(profileCreator);

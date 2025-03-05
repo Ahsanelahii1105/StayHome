@@ -13,7 +13,7 @@ namespace test.Controllers
             this._context = context;
         }
 
-        public async Task<IActionResult> Index(SallerPropertyCreator sallerPropertyCreator)
+        public async Task<IActionResult> SallerPropertyCreator(SallerPropertyCreator sallerPropertyCreator)
         {
             if (ModelState.IsValid)
             {

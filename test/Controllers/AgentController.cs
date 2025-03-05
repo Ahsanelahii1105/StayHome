@@ -14,7 +14,7 @@ namespace test.Controllers
             this._context = context;
         }
 
-        public async Task<IActionResult> Index(AgentPropertyCreator agentPropertyCreator)
+        public async Task<IActionResult> AgentPropertyCreator(AgentPropertyCreator agentPropertyCreator)
         {
             if (ModelState.IsValid)
             {
@@ -27,7 +27,7 @@ namespace test.Controllers
         }
 
 
-        public async Task<IActionResult> AgentPropertyCreator()
+        public async Task<IActionResult> Index()
         {
             var data = await _context.AgentPropertyCreator.ToListAsync();
 
