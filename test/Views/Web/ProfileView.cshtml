@@ -1,0 +1,163 @@
+﻿@model IEnumerable<test.Models.ProfileCreator>
+@* @model IEnumerable<test.Models.Menu.AgentPropertyCreator> *@
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<style>
+    /* body { */
+    /*     font-family: Arial, sans-serif; */
+    /*     background-color: #f4f4f4; */
+    /*     margin: 0; */
+    /*     padding: 0; */
+    /* } */
+
+    .cnt {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    }
+
+    .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    }
+
+    .profile-info h2 {
+    margin: 0;
+    color: #333;
+    }
+
+    .profile-info p {
+    margin: 5px 0;
+    color: #555;
+    }
+
+    .bio {
+    margin-top: 20px;
+    }
+
+    .bio h3 {
+    color: #333;
+    }
+
+    .property-list {
+    margin-top: 20px;
+    }
+
+    .property-list h3 {
+    color: #333;
+    }
+
+    .properties {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+    }
+
+    .property {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .property img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    }
+
+    .property-info {
+    padding: 10px;
+    }
+
+    .property-info h4 {
+    margin: 0;
+    color: #007bff;
+    }
+
+    .property-info p {
+    margin: 5px 0;
+    color: #555;
+    }
+
+    .property-info .price {
+    color: #28a745;
+    font-weight: bold;
+    }
+</style>
+
+
+<div class="container cnt mt-5">
+    @foreach (var item in Model)
+    {
+        <!-- Profile Section -->
+        <div class="profile">
+            <img src="@Html.DisplayFor(modelItem => item.Image)" height="120px" width="120px" alt="Agent Photo">
+            <div class="profile-info">
+                <h2>@Html.DisplayFor(modelItem => item.Name)</h2>
+                <p>Email: @Html.DisplayFor(modelItem => item.Email)</p>
+                <p>Phone: @Html.DisplayFor(modelItem => item.PhoneNumber)</p>
+                <p>Location: @Html.DisplayFor(modelItem => item.Country),@Html.DisplayFor(modelItem => item.City)</p>
+            </div>
+        </div>
+
+        <!-- Bio Section -->
+        <div class="bio">
+            <h3>About</h3>
+            <p>@Html.DisplayFor(modelItem => item.AboutSelf)</p>
+        </div>
+
+        <!-- Property Listings -->
+        <div class="property-list">
+            <h3>Listed Properties</h3>
+            <div class="properties">
+                <div class="property">
+                    <img src="https://via.placeholder.com/300x150" alt="Property Image">
+                    <div class="property-info">
+                        <h4>Luxury Apartment</h4>
+                        <p>New York, USA</p>
+                        <p class="price">$1,200,000</p>
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="https://via.placeholder.com/300x150" alt="Property Image">
+                    <div class="property-info">
+                        <h4>Cozy Family Home</h4>
+                        <p>Los Angeles, USA</p>
+                        <p class="price">$850,000</p>
+                    </div>
+                </div>
+                <div class="property">
+                    <img src="https://via.placeholder.com/300x150" alt="Property Image">
+                    <div class="property-info">
+                        <h4>Modern Condo</h4>
+                        <p>Chicago, USA</p>
+                        <p class="price">$750,000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

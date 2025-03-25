@@ -1,0 +1,102 @@
+﻿@model test.Models.Menu.SallerPropertyCreator
+
+@{
+    ViewData["Title"] = "SallerEdit";
+    Layout = "~/Views/Shared/SallerLayout.cshtml";
+}
+
+<h1>SallerEdit</h1>
+
+<h4>SallerPropertyCreator</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="SallerEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country" class="control-label"></label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Bedrooms" class="control-label"></label>
+                <input asp-for="Bedrooms" class="form-control" />
+                <span asp-validation-for="Bedrooms" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LotArea" class="control-label"></label>
+                <input asp-for="LotArea" class="form-control" />
+                <span asp-validation-for="LotArea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FloorArea" class="control-label"></label>
+                <input asp-for="FloorArea" class="form-control" />
+                <span asp-validation-for="FloorArea" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Washrooms" class="control-label"></label>
+                <input asp-for="Washrooms" class="form-control" />
+                <span asp-validation-for="Washrooms" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Garage" /> @Html.DisplayNameFor(model => model.Garage)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Included" class="control-label"></label>
+                <input asp-for="Included" class="form-control" />
+                <span asp-validation-for="Included" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NotIncluded" class="control-label"></label>
+                <input asp-for="NotIncluded" class="form-control" />
+                <span asp-validation-for="NotIncluded" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MapUrl" class="control-label"></label>
+                <input asp-for="MapUrl" class="form-control" />
+                <span asp-validation-for="MapUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TourVideoUrl" class="control-label"></label>
+                <input asp-for="TourVideoUrl" class="form-control" />
+                <span asp-validation-for="TourVideoUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

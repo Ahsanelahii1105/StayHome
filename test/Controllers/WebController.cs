@@ -38,6 +38,12 @@ namespace test.Controllers
             return View(data);
 
         }
+
+        public IActionResult listingDetails()
+        {
+            return View();
+        }
+
         public IActionResult service()
         {
             return View();
@@ -46,11 +52,20 @@ namespace test.Controllers
         {
             return View();
         }
-        public IActionResult Agent()
+        public async Task<IActionResult> Agent()
         {
-            return View();
+            var data = await _context.ProfileCreator.ToListAsync();
+
+            return View(data);
         }
         
+        public async Task<IActionResult> ProfileView()
+        {
+            var data = await _context.ProfileCreator.ToListAsync();
+
+            return View(data);
+        }
+
         public IActionResult ProfileCreator()
         {
             //

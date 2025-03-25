@@ -8,21 +8,12 @@ using test.Models.Menu;
 
 namespace test.Data
 {
-    public class Context : IdentityDbContext
+    public class Context : DbContext
     {
+
         public  Context(DbContextOptions<Context> options) : base(options) { }
 
-
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-        }
-
-        public DbSet<Login> Login { get; set; }
-
-        public DbSet<Register> Register { get; set; }
-
+        public DbSet<Users> Users { get; set; }
         public DbSet<ProfileCreator> ProfileCreator { get; set; }
 
         public DbSet<SallerProfileCreator> SallerProfileCreator { get; set; }

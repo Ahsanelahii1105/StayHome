@@ -40,6 +40,8 @@ namespace test.Controllers
             return View(data);
         }
 
+        // agent details function
+
         public async Task<IActionResult> AgentDetails(int Id)
         {
             if (Id==null  || _context.ProfileCreator == null)
@@ -51,6 +53,9 @@ namespace test.Controllers
 
             return View(Details);
         }
+
+
+        // agent edits function
 
         public async Task<IActionResult> AgentEdit(int? Id)
         {
@@ -77,8 +82,34 @@ namespace test.Controllers
             return RedirectToAction("Agent", "Admin");
         }
 
+
+         
+        // agent Delete function
+
+        public async Task<IActionResult> AgentDelete(int? Id)
+        {
+            if (Id == null || _context.ProfileCreator == null)
+            {
+                return NotFound();
+            }
+            var delete = await _context.ProfileCreator.FindAsync(Id);
+
+            return View(delete);
+        }
+
+        [HttpPost, ActionName("AgentDelete")]
+        public async Task<IActionResult> AgentDeleteConfirm(int? Id)
+        {
+            var delete = await _context.ProfileCreator.FindAsync(Id);
+            _context.ProfileCreator.Remove(delete);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Agent", "Admin");
+        }
+
         // ------------ End ---------
 
+        // --------------------------------------- Saller ------------------------------
 
         public async Task<IActionResult> Saller()
         {
@@ -88,12 +119,83 @@ namespace test.Controllers
         }
 
 
-        public async Task<IActionResult> RegisteredUsers()
-        {
-            var data = await _context.Register.ToListAsync();
+        // saller details function
 
-            return View(data);
+        public async Task<IActionResult> SallerDetails(int Id)
+        {
+            if (Id == null || _context.SallerProfileCreator == null)
+            {
+
+                return NotFound();
+            }
+            var Details = await _context.SallerProfileCreator.FindAsync(Id);
+
+            return View(Details);
         }
+
+
+        // saller edits function
+
+        public async Task<IActionResult> SallerEdit(int? Id)
+        {
+            if (Id == null || _context.SallerProfileCreator == null)
+            {
+
+                return NotFound();
+            }
+            var Edit = await _context.SallerProfileCreator.FindAsync(Id);
+
+            return View(Edit);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SallerEdit(int? Id, SallerProfileCreator sallerProfileCreator)
+        {
+            if (sallerProfileCreator == null || Id == null || _context.SallerProfileCreator == null)
+            {
+                return NotFound();
+            }
+            _context.SallerProfileCreator.Update(sallerProfileCreator);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Saller", "Admin");
+        }
+
+        // saller Delete function
+
+        public async Task<IActionResult> SallerDelete(int? Id)
+        {
+            if (Id == null || _context.SallerProfileCreator == null)
+            {
+                return NotFound();
+            }
+            var delete = await _context.SallerProfileCreator.FindAsync(Id);
+
+            return View(delete);
+        }
+
+        [HttpPost, ActionName("SallerDelete")]
+        public async Task<IActionResult> SallerDeleteConfirm(int? Id)
+        {
+            var delete = await _context.SallerProfileCreator.FindAsync(Id);
+
+            _context.SallerProfileCreator.Remove(delete);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Saller", "Admin");
+        }
+
+        // ------------ End ---------
+
+
+        // registeration function
+
+        //public async Task<IActionResult> RegisteredUsers()
+        //{
+        //    var data = await _context.Register.ToListAsync();
+
+        //    return View(data);
+        //}
 
     }
 }

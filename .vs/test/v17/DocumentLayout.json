@@ -1,26 +1,122 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\test\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\webcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\agentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\admin\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\repository\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\repository\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\interface\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\repository\\interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\web\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\agent\\agentdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\agent\\agentdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\admin\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\admin\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\repository\\services\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\repository\\services\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\admin\\agentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\admin\\agentdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|d:\\test\\test\\views\\admin\\agentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\admin\\agentedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\controllers\\sallercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\controllers\\sallercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\migrations\\20250308194430_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\migrations\\20250308194430_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\models\\menu\\listingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\models\\menu\\listingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\web\\listingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\listingdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\web\\listning.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\listning.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\web\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\agent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\views\\web\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\views\\web\\profileview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|c:\\users\\administrator\\desktop\\test\\test\\migrations\\20250308210746_samya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08FB1317-6D09-4E18-82FB-EC79D3B74A81}|test\\test.csproj|solutionrelative:test\\migrations\\20250308210746_samya.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,67 +131,351 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Agent.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\Admin\\Agent.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\Admin\\Agent.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\Admin\\Agent.cshtml",
-              "RelativeToolTip": "test\\Views\\Admin\\Agent.cshtml",
-              "ViewState": "AgIAACYAAAAAMTMzMzMbwDEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T13:04:14.343Z",
-              "EditorCaption": ""
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\UserController.cs",
+              "RelativeToolTip": "test\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:23:45.402Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AgentEdit.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\Admin\\AgentEdit.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\Admin\\AgentEdit.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\Admin\\AgentEdit.cshtml",
-              "RelativeToolTip": "test\\Views\\Admin\\AgentEdit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T13:03:36.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "test\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:45:14.544Z",
-              "EditorCaption": ""
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "test\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:32:30.294Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AgentDetails.cshtml",
-              "DocumentMoniker": "D:\\test\\test\\Views\\Admin\\AgentDetails.cshtml",
-              "RelativeDocumentMoniker": "test\\Views\\Admin\\AgentDetails.cshtml",
-              "ToolTip": "D:\\test\\test\\Views\\Admin\\AgentDetails.cshtml",
-              "RelativeToolTip": "test\\Views\\Admin\\AgentDetails.cshtml",
-              "ViewState": "AgIAAEcAAAAAJDMzMzMLwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T12:16:32.286Z",
-              "EditorCaption": ""
+              "Title": "AgentController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\AgentController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\AgentController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\AgentController.cs",
+              "RelativeToolTip": "test\\Controllers\\AgentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:24:16.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "test\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:24:23.263Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\test\\test\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "test\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\test\\test\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "test\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAADYAAACAzMzMzMwwwEIAAAASAAAAAAAAAA==",
+              "Title": "WebController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\WebController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\WebController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\WebController.cs",
+              "RelativeToolTip": "test\\Controllers\\WebController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwHIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:47:51.029Z",
+              "WhenOpened": "2025-03-07T16:28:30.987Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Services\\EmailSender.cs",
+              "RelativeToolTip": "test\\Repository\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAwwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:34:32.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Interface\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Interface\\IEmailSender.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Interface\\IEmailSender.cs",
+              "RelativeToolTip": "test\\Repository\\Interface\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:34:22.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Interface\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Interface\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Interface\\IAuthRepository.cs",
+              "RelativeToolTip": "test\\Repository\\Interface\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:05:11.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "test\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:32:18.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Program.cs",
+              "RelativeDocumentMoniker": "test\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Program.cs",
+              "RelativeToolTip": "test\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T11:40:16.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "test\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAYwNsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T21:48:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Index.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Index.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:48:45.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "test\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Models\\Users.cs",
+              "RelativeToolTip": "test\\Models\\Users.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:09:45.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\appsettings.json",
+              "RelativeDocumentMoniker": "test\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\appsettings.json",
+              "RelativeToolTip": "test\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-07T20:20:56.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "test\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:32:10.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AgentDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Agent\\AgentDelete.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Agent\\AgentDelete.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Agent\\AgentDelete.cshtml",
+              "RelativeToolTip": "test\\Views\\Agent\\AgentDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:48:13.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Agent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Admin\\Agent.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Admin\\Agent.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Admin\\Agent.cshtml",
+              "RelativeToolTip": "test\\Views\\Admin\\Agent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:48:03.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Services\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "test\\Repository\\Services\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Repository\\Services\\AuthRepository.cs",
+              "RelativeToolTip": "test\\Repository\\Services\\AuthRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:06:44.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "test\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv1AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:31:24.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "test\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAADwv2YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T21:31:40.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SallerController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\SallerController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\SallerController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Controllers\\SallerController.cs",
+              "RelativeToolTip": "test\\Controllers\\SallerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:24:26.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250308210746_samya.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Migrations\\20250308210746_samya.cs",
+              "RelativeDocumentMoniker": "test\\Migrations\\20250308210746_samya.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Migrations\\20250308210746_samya.cs",
+              "RelativeToolTip": "test\\Migrations\\20250308210746_samya.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T21:07:46.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250308194430_data.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Migrations\\20250308194430_data.cs",
+              "RelativeDocumentMoniker": "test\\Migrations\\20250308194430_data.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Migrations\\20250308194430_data.cs",
+              "RelativeToolTip": "test\\Migrations\\20250308194430_data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T19:44:31.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Data\\Context.cs",
+              "RelativeDocumentMoniker": "test\\Data\\Context.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Data\\Context.cs",
+              "RelativeToolTip": "test\\Data\\Context.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T11:29:40.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Agent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Agent.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\Agent.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Agent.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\Agent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T20:27:56.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ListingDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Models\\Menu\\ListingDetails.cs",
+              "RelativeDocumentMoniker": "test\\Models\\Menu\\ListingDetails.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Models\\Menu\\ListingDetails.cs",
+              "RelativeToolTip": "test\\Models\\Menu\\ListingDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T02:11:54.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ListingDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\ListingDetails.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\ListingDetails.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\ListingDetails.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\ListingDetails.cshtml",
+              "ViewState": "AgIAALoAAAAAAJWZmZm5v8MAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T22:54:31.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Listning.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Listning.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\Listning.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\Listning.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\Listning.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T01:39:05.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProfileView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\ProfileView.cshtml",
+              "RelativeDocumentMoniker": "test\\Views\\Web\\ProfileView.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\test\\test\\Views\\Web\\ProfileView.cshtml",
+              "RelativeToolTip": "test\\Views\\Web\\ProfileView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T21:43:55.99Z"
             }
           ]
         }

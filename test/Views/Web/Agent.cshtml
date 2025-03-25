@@ -11,8 +11,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <div class="carousel-agent owl-carousel">
+                    @foreach (var item in Model)
+                    {
+            <div class="col-md-4">
                         <div class="item">
                             <div class="agent">
                                 <div class="img">
@@ -22,18 +23,15 @@
                                     </div>
                                 </div>
                                 <div class="desc pt-3">
-                    @foreach (var item in Model)
-                    {
                                     <div>
                                         <h3><a href="properties.html">@Html.DisplayFor(modelItem => item.Name)</a></h3>
                                         <p class="h-info"><span class="location">Listing</span> <span class="details">&mdash; 10 Properties</span></p>
                                     </div>
-                    }
                                 </div>
                             </div>
                         </div>
-                </div>
             </div>
+                    }
         </div>
     </div>
 </section>

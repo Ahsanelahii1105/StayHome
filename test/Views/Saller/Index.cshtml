@@ -1,4 +1,4 @@
-﻿@model test.Models.Menu.SallerPropertyCreator
+﻿@model IEnumerable<test.Models.Menu.SallerPropertyCreator>
 
 @{
     ViewData["Title"] = "Index";
@@ -7,95 +7,114 @@
 
 <h1>Index</h1>
 
-<div class="container">
-    <div class="row m-auto">
-        <div class="col-md-12 ">
-        <form asp-action="Index">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
-                <span asp-validation-for="Price" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Country" class="control-label"></label>
-                <input asp-for="Country" class="form-control" />
-                <span asp-validation-for="Country" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="City" class="control-label"></label>
-                <input asp-for="City" class="form-control" />
-                <span asp-validation-for="City" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Bedrooms" class="control-label"></label>
-                <input asp-for="Bedrooms" class="form-control" />
-                <span asp-validation-for="Bedrooms" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="LotArea" class="control-label"></label>
-                <input asp-for="LotArea" class="form-control" />
-                <span asp-validation-for="LotArea" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FloorArea" class="control-label"></label>
-                <input asp-for="FloorArea" class="form-control" />
-                <span asp-validation-for="FloorArea" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Washrooms" class="control-label"></label>
-                <input asp-for="Washrooms" class="form-control" />
-                <span asp-validation-for="Washrooms" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Garage" /> @Html.DisplayNameFor(model => model.Garage)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="Included" class="control-label"></label>
-                <input asp-for="Included" class="form-control" />
-                <span asp-validation-for="Included" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NotIncluded" class="control-label"></label>
-                <input asp-for="NotIncluded" class="form-control" />
-                <span asp-validation-for="NotIncluded" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MapUrl" class="control-label"></label>
-                <input asp-for="MapUrl" class="form-control" />
-                <span asp-validation-for="MapUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="TourVideoUrl" class="control-label"></label>
-                <input asp-for="TourVideoUrl" class="form-control" />
-                <span asp-validation-for="TourVideoUrl" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-        </div>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bedrooms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LotArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FloorArea)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Washrooms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Garage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Included)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NotIncluded)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MapUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TourVideoUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bedrooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LotArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FloorArea)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Washrooms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Garage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Included)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NotIncluded)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MapUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TourVideoUrl)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                <a asp-action="SallerEdit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="SallerDetails" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="SallerDelete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -15,6 +15,9 @@ namespace test.Models
             [EmailAddress]
             public string Email { get; set; }
 
+            [MaxLength(200)]
+            public string AboutSelf { get; set; }
+
             [Required]
             [Phone]
             public string PhoneNumber { get; set; }
@@ -40,6 +43,8 @@ namespace test.Models
             public string Gender { get; set; } // Can be "Male", "Female", "Other"
 
             public bool Agent { get; set; } // To indicate if the person is a dealer
+
+            public string Image {  get; set; }
     
     }
 }

@@ -1,6 +1,16 @@
 ﻿@using Microsoft.AspNetCore.Identity;
-@inject UserManager<IdentityUser> UM;
-@inject SignInManager<IdentityUser> SM;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var userEmail = HttpContextAccessor.HttpContext.Session.GetString("Email");
+    var userRole = HttpContextAccessor.HttpContext.Session.GetString("URole");
+    bool isAuthenticated = !string.IsNullOrEmpty(userEmail);
+    string currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    string currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+    bool isHomePage = currentController == "Web" && currentAction == "Index";
+
+}
+
 
 
 
@@ -56,9 +66,9 @@
                                 //     <span class="text">@UM.GetUserNameAsync</span>
                                 // </div>
 
-                                <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+                            <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end mb-1">
                                     <p class="mb-0 register-link">
-                                        <a href="@Url.Action("ProfileCreator","Web")" class="mr-3">Update Your Profile</a> 
+                                    <a href="@Url.Action("ProfileCreator","Web")" class="mr-3">Update Your Profile</a><a href="@Url.Action("ProfileView","Web")"><img src="/images/profile.png"  alt="profile" style="width:30px; height:30px;"></a>
                                     </p>
                                 </div>
                                      // <a type="submit" class="btn btn-danger" asp-action="Login" asp-controller="User" >LogOut</a>
@@ -92,7 +102,7 @@
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="@Url.Action("Index","Web")" class="nav-link"><span>Home</span></a></li>
-                    <li class="nav-item"><a href="@Url.Action("service","Web")" class="nav-link"><span>Services</span></a></li>
+                    @* <li class="nav-item"><a href="@Url.Action("service","Web")" class="nav-link"><span>Services</span></a></li> *@
                     <li class="nav-item"><a href="@Url.Action("Listning","Web")" class="nav-link"><span>Listning</span></a></li>
                     <li class="nav-item"><a href="@Url.Action("Agent","Web")" class="nav-link"><span>Agent</span></a></li>
                     <li class="nav-item"><a href="@Url.Action("About","Web")" class="nav-link"><span>About Us</span></a></li>

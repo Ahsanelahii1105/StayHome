@@ -23,6 +23,8 @@ namespace test.Models
         [DisplayName("Confirm Password")]
 
         public string ConfirmPassword { get; set; }
+
+        public int Role { get; set; } // 0 = Admin, 1 = Agent, 2 = Seller
     }
 }
 
